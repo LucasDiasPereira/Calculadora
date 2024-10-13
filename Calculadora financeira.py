@@ -27,7 +27,7 @@ def calcular_investimento(montante_inicial, aporte_mensal, taxa_juros_anual, mes
         saldo = saldo * (1 + taxa_juros_mensal) + aporte_mensal
         historico_saldo.append(saldo)
 
-        # Calcular a renda mensal aproximada com base em uma retirada de 0,5% do saldo total (aproximado de uma retirada de 6% ao ano)
+        # Calcular a renda mensal aproximada com base em uma retirada de 0,5% do saldo total 
         renda_mensal = saldo * 0.005
         if renda_mensal >= meta_renda_mensal:
             return mes, saldo, historico_saldo
