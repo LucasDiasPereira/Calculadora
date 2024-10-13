@@ -53,4 +53,3 @@ print("Resultados:")
 print(f"Cenário 1 renda fixa (Taxa de juros anual: {taxa_juros_anual_1*100:.2f}%): {meses_1} meses ({meses_1/12:.2f} anos) para alcançar a meta de R$ {meta_renda_mensal} com saldo final de R$ {saldo_final_1:.2f}")
 print(f"Cenário 2 renda mista (Taxa de juros anual: {taxa_juros_anual_2*100:.2f}%): {meses_2} meses ({meses_2/12:.2f} anos) para alcançar a meta de R$ {meta_renda_mensal} com saldo final de R$ {saldo_final_2:.2f}")
 
-teste
